@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Craig Zerr</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<!--this is an HTML comment -->
+<head>
+  <title>Craig's Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="Table of Contents">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-one">Lesson One: The Basics of the Web</a>
+          <ul>
+            <li><a href="#lesson-1-1">An Overview of the Web</a></li>
+            <li><a href="#lesson-1-2">Major Pieces of the Web</a></li>
+            <li><a href="#lesson-1-3">HTML</a></li>
+            <li><a href="#lesson-1-4">HTML Markups</a></li>
+            <li><a href="#lesson-1-5">Some Examples of Tags</a></li>
+            <li><a href="#lesson-1-6">Elements (Inline and Block)</a></li>
+          </ul>
+        </li>
+        <li class="Table of contents-lesson"><a href="#lesson-Two">Lesson Two: Making a Scructured Document with HTML</a>
+          <ul>
+            <li><a href="#lesson-2-1">Developer Tools</a></li>
+            <li><a href="#lesson-2-2">The "Tree-Like Structure"</a></li>
+            <li><a href="#lesson-2-3">The relationship between indented HTML and Boxes</a></li>
+            <li><a href="#lesson-2-4">Text Editors</a></li>
+          </ul>
+        </li>
+        <li class="table of Content-lesson"><a href="#lesson-3">Lesson Three: Adding CSS Style to HTML Structure</a>
+          <ul>
+            <li><a href="#lesson-3-1">Avoiding Repetition</a></li>
+            <li><a href="lesson-3-2">CSS</a></li>
+          </ul>
+        </li>
+    </ol>
+  </div>
+<h1>Important Concepts</h1>
+<div class="lesson">
+  <h2 id="lesson-1">Lesson One: The Basics of the Web</h2>
+  <div class="concept" id="lesson-1-1">
+    <div class="concept-title">
+      <b>An Overview of the Web</b>
+    </div>
+    <div class="concept-description">
+<p>
+  The web consist of a vast amount of computers from all over the world that interconnect with each other. 
+When someone goes to a web page, the information entered is a <em>HTTP Request</em>.
+</p>
+<p>
+This request is uses a <b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>P</b>rotocol(<b>HTTP</b>), which is sent to a <em>server</em>.
+The server replies finding the correct HTML document which the <em>web browser</em> interprets and displays it on the computer screen. Watch this
+<a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48230539/m-48742046">video</a> to have a better concept on the information I just presented. 
+</p>
+  </div>
+</div>
+ <div class="concept" id="lesson-1-2">
+    <div class="concept-title">
+      <b>Major Pieces of the Web</b>
+    </div>
+   <div class="concept-description">
+          <ul>
+          <li>HTTP-The main protocol of the web</li><li>Servers-Computers that host the files that make uo the web</li>
+          <li>Internet-The world's largest computer network</li>
+          <li>Browser-A program that runs on your computer to display files found on the web</li>
+     </ul>
+  <p>
+  This <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496">Video</a> will explain the 
+  process.
+</p>
+  </div>
+</div>
+<div class="concept" id="lesson1-3">
+  <div class="concept-title">
+    <b> HTML</b>
+  </div>
+  <div class="concept-description">
+    <p>
+      HTML is an acronym for <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage and in essence is heart of the web.
+  <em>HTML is composed of:</em>
+    </p>
+    <ul> 
+      <li>Text content "what you see"</li> 
+      <li>Markup "how it looks"</li>
+      <li>References to other documents eg. images and videos</li>
+      <li>Links to other pages</li>
+    </ul>
+   <p>
+      To explain in full here is a <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48724340">video</a>.
+    </p>
+  </div>
+</div>
+<div class="concept" id="lesson-1-4">
+  <div class="concept-title">
+    <b>HTML Markups</b>
+  </div>
+  <div class="concept-description">
+<p>
+  HTML markups are made up of <b>tags</b>. They start with a opening tag and end with a closing tag. Inbetween the opening and closing tags is the content, this is also a tag.  These tags all together as a whole arecalled an <b>element</b>.
+    </p>
+  </div>
+</div>
+    <div class="concept" id="lesson-1-5">
+      <div class="concept-title">
+    <b>Some Example of Tags</b>
+      </div>
+      <ul>
+        <li><b>b</b> = Bold</li>
+        <li><b>em</b> = Italic</li>
+        <li><b>p</b> = Paragraph</li>
+        <li><b>br</b> = Line break</li>
+        <li><b>img</b> = Images</li>
+      </ul>
+    </div>
+  <div class="concept" id="lesson-1-6">
+    <div class="concept-title">
+<b>Elements (Inline and Block)</b>
+    </div>
+    <div class="concept-description">
+      <p>
+        There are two types of elements <b>inline</b> and <b>block</b>. Inline only occupies the space along the content. Block forms a box or block that works like a container around the content.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="lesson">
+  <h2 id="lesson-2">Lesson Two: Making a Scructured Document with HTML</h2>
+  <div class="concept" id="lesson-2-1">
+    <div class="concept-title">
+      <b>Developer Tools</b>
+    </div>
+    <p>
+      These tools exist online to assist in every aspect of developing.
+    </p>
+    </div>
+  <div class="concept" id="lesson-2-2">
+    <div class="concept-title">
+    <b>The "Tree-Like Structure"</b>
+    </div>
+    <div class="concept-description">
+      <p>
+        HTML Elements can have other elements inside of them that link to other elements which causes a "tree-like" structure. This structure looks like a grouping of boxes within each other.
+      </p>
+    </div>
+  </div>
+  <div class="concept" id="lesson-2-3">
+    <div class="concept-title">
+      <b>The relationship between indented HTML and Boxes</b>
+    </div>
+    <div class="concept-description">
+      <p>
+        The indentented HTML code is located on the box which the content is associated with.
+      </p>
+    </div>
+  </div>
+    <div class="concept" id="lesson-2-4">
+    <div class="concept-title">
+      <b>Text Editors</b>
+    </div>
+    <div class="concept-description">
+      <p>
+        To write code more efficiently, programmers will use text editors.  Some of these editors will help by creating a closing tag automatically when you first write an opening tag.
+      </p>
+    </div>
+  </div>
+</div>
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="lesson-3-1">
+      <div class="concept-title">
+     <b>Avoiding Repetition</b>
+    </div>
+      <div class="concept-description">
+        <ul>
+          <li>Saves a programmer time</li>
+          <li>Helps avoid errors</li>
+          <li>Helps maintain consistency throughout the code</li>
+        </ul>
+      </div>
+    </div>
+      <div class="concept" id="lesson-3-2">
+        <div class="concept-title">
+          <p>
+            <b>CSS</b>
+          </p>
+    </div>
+        <div class="concept-description">
+    <p>
+      CCS stands for Cascading Style Sheets.  It allows for control over the style of HTML elements.  With it, you can assign a <span class="code">class</span> to HTML elements.  This change allows the style of all elements to belong to that class.
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</body>
+
+</html>
